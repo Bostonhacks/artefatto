@@ -8,7 +8,10 @@ body {
 }
 
 
-
+h2
+{
+  font-size: 100%;
+}
 /* The actual timeline (the vertical ruler) */
 .timeline {
   position: relative;
@@ -93,8 +96,12 @@ img {
 .bhacktitle
 {
   text-align: center;
+  font-size: 100%;
 }
 
+p{
+  font-size: 90%;
+}
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media screen and (max-width: 600px) {
