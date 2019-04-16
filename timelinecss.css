@@ -4,13 +4,14 @@
 
 body {
   background-color: #b9bcc2;
-  font-family: Helvetica, sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 
 h2
 {
   font-size: 100%;
+  font-family: 'Roboto', sans-serif;
 }
 /* The actual timeline (the vertical ruler) */
 .timeline {
@@ -97,10 +98,12 @@ img {
 {
   text-align: center;
   font-size: 100%;
+  font-family: 'Roboto', sans-serif;
 }
 
 p{
   font-size: 90%;
+  font-family: 'Roboto', sans-serif;
 }
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
