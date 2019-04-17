@@ -95,6 +95,7 @@ img {
   left: -16px;
 }
 
+
 /* The actual content */
 .content {
   padding: 20px 30px;
@@ -154,4 +155,6 @@ p{
   .right {
   left: 0%;
   }
+
+  
 }
