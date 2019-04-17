@@ -1,9 +1,9 @@
 body {
-  margin-bottom: 1em; /* Margin bottom by footer height */
+  margin-bottom: 0;
+  /* Margin bottom by footer height */
 }
 
-#landing-page{
-
+#landing-page {
   background-image: url('/assets/imgs/background_img.png');
   background-size: cover;
   background-position: center;
@@ -12,9 +12,21 @@ body {
 }
 
 .footer {
-  position: fixed;
   bottom: 0;
+  display: flex;
+  height: 8vh;
   width: 100%;
-  padding: 0.5em;
-  background-color: #f5f5f5;
+  padding: 1.5vh 5vh;
+  background-color: #2a2563;
 }
+
+.footer-brand {
+  height: 5vh;
+  width: 130px;
+  line-height: inherit;
+}
+
+.brand-item {
+  margin-right: 3vh;
+}
+
