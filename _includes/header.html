@@ -1,29 +1,29 @@
 <div class="container-fluid sticky-top" style="padding:0">
-<!--  -->
-  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #5b5480; padding:15px 0 15px 0; border-bottom: 1px solid #5b5480; height: 10vh;">
+  <nav class="navbar navbar-expand-lg navbar-light"
+    style="background-color: #5b5480; padding:15px 0 15px 0; border-bottom: 1px solid #5b5480; height: 58px;">
     <a class="navbar-brand" href="{{ "/" | relative_url }}" style="margin: 10px 60px;">
-      <img src="assets/imgs/Logos/Logo_Small_header.svg">
+      <img src="/assets/imgs/Logos/Logo_Small_header.svg">
     </a>
-    
-  <!--   
+
+
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="margin-right:12px; align-self:right;">
       <span class="navbar-toggler-icon"></span>
     </button>
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto" style="margin-left:32px">
-        <li class="nav-item {% if page.permalink == "/" %} active {% endif %}">
+        <!-- <li class="nav-item {% if page.permalink == "/" %} active {% endif %}">
           <a class="nav-link" href="{{ "/" | relative_url }}" style="font-size: 1.25rem">HOME &nbsp;</a>
+        </li> -->
+        <li class="nav-item {% if page.permalink == "/timeline/" %} active {% endif %}">
+          <a class="nav-link" href="{{ "/timeline" | relative_url }}" style="font-size: 1.25rem">History &nbsp;</a>
         </li>
-        <li class="nav-item {% if page.permalink == "/previous/" %} active {% endif %}">
-          <a class="nav-link" href="{{ "/previous" | relative_url }}" style="font-size: 1.25rem">HISTORY &nbsp;</a>
+        <li class="nav-item {% if page.permalink == "/organizers/" %} active {% endif %}">
+          <a class="nav-link" href="{{ "/organizers" | relative_url }}" style="font-size: 1.25rem">Organizers &nbsp;</a>
         </li>
-        <li class="nav-item {% if page.permalink == "/about/" %} active {% endif %}">
-          <a class="nav-link" href="{{ "/about" | relative_url }}" style="font-size: 1.25rem">ABOUT / CONTACT &nbsp;</a>
-        </li>
-        <li class="nav-item {% if page.permalink == "/workshops/" %} active {% endif %}">
+        <!-- <li class="nav-item {% if page.permalink == "/workshops/" %} active {% endif %}">
           <a class="nav-link" href="{{ "/workshops" | relative_url }}" style="font-size: 1.25rem">WORKSHOPS</a>
-        </li>
+        </li> -->
       </ul>
       <ul class="navbar-nav ml-auto" style="height:auto; margin-right:10px;">
         <li class="nav-item" style=" margin-left:26px">
@@ -31,7 +31,5 @@
           <a href="https://twitter.com/boston_hacks"><i class="fa fa-twitter-square fa-lg" style="padding:8px;"></i></a>
         </li>
       </ul>
-    </div> -->
   </nav>
-
 </div>
