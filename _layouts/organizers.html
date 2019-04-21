@@ -1,0 +1,59 @@
+---
+layout: default
+---
+<!DOCTYPE html>
+<html>
+
+<head>
+        <link rel="stylesheet" type="text/css" href="/organizerpage.css.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+        <h2>{{ page.title }}</h2>
+        <p>Heres some stuff about the organizers</p>
+        <h3 style=" font-size: 90%; color:black;">Current Members</h3>
+        <br>
+
+        <div class="currentmembers">
+                {% for org in page.organizers%}
+                <div class="row">
+                        <div class="column">
+                                <div class="container">
+                                        <img src="{{org.organizer_pic}}">
+                                        <p> <a> <b>{{org.name}}</b></a><br> <a class="role" style="color:grey;">{{org.role}}</a>
+                                                <br> {{org.email}}
+                                        </p>
+
+                                </div>
+                        </div>
+
+                        <div class="column">
+                                <div class="container">
+                                        <img src="{{org.organizer_pic2}}">
+                                        <p> <a> <b>{{org.name2}}</b></a><br> <a class="title" style="color:grey;">{{org.role2}}</a>
+                                                <br> {{org.email2}}</p>
+
+                                </div>
+                        </div>
+                        <div class="column">
+                                <div class="container">
+                                        <img src="{{org.organizer_pic3}}">
+                                        <p> <a> <b>{{org.name3}}</b></a><br> <a class="title" style="color:grey;">{{org.role3}}</a>
+                                                <br> {{org.email3}}</p>
+
+                                </div>
+                        </div>
+                </div>
+                {% if forloop.last == false %}
+                        <hr />
+                        {% endif %}
+                        {% endfor %}
+                
+        </div>
+
+</body>
+
+</html>
