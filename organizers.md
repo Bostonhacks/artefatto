@@ -85,7 +85,7 @@ organizers:
     -
         name: Noah Naiman
         role: Sponsorship Team Member
-        organizer_pic: /assets/imgs/noah.jpg
+        organizer_pic: /assets/imgs/noah.jpeg
         email: nnaiman@bu.edu
         name2: Lisa Vu
         role2: Sponsorship Team Member
