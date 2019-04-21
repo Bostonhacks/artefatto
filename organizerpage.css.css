@@ -20,6 +20,7 @@ html {
   .currentmembers
   {
       background-color: white;
+      padding: 5px;
   }
 
   .description

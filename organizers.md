@@ -6,7 +6,7 @@ organizers:
     -
         name: Sarah Griesdorf
         role: Director of BostonHacks
-        organizer_pic: /assets/imgs/sarah.jpg
+        organizer_pic: /assets/imgs/sarahg.jpg
         email: sarah21@bu.edu
         name2: Melissa Lin
         role2: Head of Marketing
@@ -14,7 +14,7 @@ organizers:
         email2: mlin2022@bu.edu
         name3: Jennifer Kim
         role3: Marketing Team Member
-        organizer_pic3: 
+        organizer_pic3: /assets/imgs/jenniferk.jpg
         email3: jenkim@bu.edu
 
     -
@@ -93,7 +93,7 @@ organizers:
         email2: lisaqv@bu.edu
         name3: Charles Ma
         role3: Sponsorship Team Member/Director of BostonHacks 2018
-        organizer_pic3: 
+        organizer_pic3: /assets/imgs/charles.jpeg
         email3: cma4@bu.edu
     -
         name: Roger Ramesh
@@ -115,7 +115,7 @@ organizers:
         email: njakkam@bu.edu
         name2: Michael Hendricks
         role2: Head of Tech
-        organizer_pic2: /assets/imgs/michael.jpg
+        organizer_pic2: /assets/imgs/mike.jpg
         email2: mhendric@bu.edu
         name3: Sarah Reiger
         role3: Tech Team Member
@@ -141,16 +141,16 @@ organizers:
         email: afarra@bu.edu
         name2: Jason Cho
         role2: Tech Team Member
-        organizer_pic2: /assets/imgs/jasonc.jpg
+        organizer_pic2: /assets/imgs/jasonc.jpeg
         email2: jjuncho@bu.edu
         name3: Nam Pham
         role3: Tech Team Member
-        organizer_pic3: 
+        organizer_pic3: /assets/imgs/nam.jpeg
         email3: nampham@bu.edu
     -
         name: Austin Negron
         role: Tech Team Member
-        organizer_pic: 
+        organizer_pic: /assets/imgs/austin.jpeg
         email: negrona@bu.edu
         name2: Jin-Young "Alex" Bang
         role2: Tech Team Member
