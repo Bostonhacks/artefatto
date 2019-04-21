@@ -6,7 +6,9 @@ html {
     box-sizing: inherit;
   }
   img {
-   border-radius: 50%
+   border-radius: 50%;
+   width: 20%;
+   padding: 5px;
   }
   .column {
     float: left;
@@ -18,8 +20,13 @@ html {
   .currentmembers
   {
       background-color: white;
+      font-family: 'Roboto', sans-serif;
   }
 
+  .description
+  {
+    font-size: 75%;
+  }
   .pastmembers
   {
       background-color: white;
@@ -34,6 +41,7 @@ html {
   body
   {
     background-color: #b9bcc2;
+    font-family: 'Roboto', sans-serif;
   }
   
   .container {
@@ -49,8 +57,9 @@ html {
     display: table;
   }
   
-  .title {
-    color: grey;
+  .role {
+    color: red;
+    font-size: 95%;
   }
   table {
     font-family: arial, sans-serif;
