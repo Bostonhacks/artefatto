@@ -10,7 +10,7 @@ organizers:
         email: sarah21@bu.edu
         name2: Melissa Lin
         role2: Head of Marketing
-        organizer_pic2: /assets/imgs/melissa.jpg
+        organizer_pic2: /assets/imgs/melissa.jpeg
         email2: mlin2022@bu.edu
         name3: Jennifer Kim
         role3: Marketing Team Member
