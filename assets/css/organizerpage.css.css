@@ -16,10 +16,23 @@ html {
     margin-bottom: 16px;
     padding: 0 8px;
   }
+.tit
+{
+  font-size: 110%;
+  color:black;
+  max-width: 140px;
+  margin-left: 120px;
+  margin-bottom: 0px;
+}
+
 
   .currentmembers
   {
       background-color: white;
+      max-width: 1200px;
+      margin: 0 auto;
+      margin-bottom: 50px;
+      margin-top: 4px;
   }
 
   .description
