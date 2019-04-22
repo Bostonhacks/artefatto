@@ -3,7 +3,14 @@ layout: default
 ---
 
 
-<h2 style="
+<DOCTYPE html>
+        <html>
+                <head>
+                        <link rel="stylesheet" type="text/css" href="/assets/css/organizer.css">
+                        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+                </head>
+                <body>
+                        <h2 style="
         margin-left: 120px; margin-top: 50px;">{{ page.title }}</h2>
 <p style="margin-left: 120px; font-weight: lighter">Below is a list of the current members of the organizing team, their
         role, and emails.</p>
@@ -45,10 +52,6 @@ layout: default
 
                         </div>
                 </div>
-                {% if forloop.last == false %}
-                <hr />
-                {% endif %}
-                {% endfor %}
 
         </div>
         {% if forloop.last == false %}
@@ -57,3 +60,6 @@ layout: default
         {% endfor %}
 
 </div>
+                </body>
+        </html>
+</DOCTYPE>
