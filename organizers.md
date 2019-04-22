@@ -4,7 +4,7 @@ title: BostonHacks Fall 2019 Organizers
 permalink: /organizers/
 organizers:
     -
-        name: Sarah Griesdorf
+        name: Sarah Greisdorf
         role: Director of BostonHacks
         organizer_pic: /assets/imgs/sarahg.jpeg
         email: sarah21@bu.edu
@@ -154,7 +154,7 @@ organizers:
         email: negrona@bu.edu
         name2: Jin-Young "Alex" Bang
         role2: Tech Team Member
-        organizer_pic2: 
+        organizer_pic2: /assets/imgs/alex.png
         email2: jybang@bu.edu
         name3: Rishab Nayak
         role3: Tech Team Member
