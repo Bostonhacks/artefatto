@@ -34,11 +34,11 @@ organizers:
         name: Fiona Lin
         role: Design Team Member
         organizer_pic: 
-        email: 
+        email: fionalin8751@gmail.com
         name2: Alicja Wisniowska
         role2: Design Team Member
         organizer_pic2: 
-        email2: 
+        email2: alicjaw@bu.edu
         name3: Joyce Hu
         role3: Design Team Member
         organizer_pic3: 
