@@ -6,7 +6,7 @@ organizers:
     -
         name: Sarah Griesdorf
         role: Director of BostonHacks
-        organizer_pic: /assets/imgs/sarahg.jpg
+        organizer_pic: /assets/imgs/sarahg.jpeg
         email: sarah21@bu.edu
         name2: Melissa Lin
         role2: Head of Marketing
