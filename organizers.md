@@ -67,7 +67,7 @@ organizers:
         email2: jfli@bu.edu
         name3: Christopher Chang
         role3: Logistic Team Member
-        organizer_pic3: 
+        organizer_pic3: /assets/imgs/chris.jpg
         email3: changc21@bu.edu
     -
         name: Blake Abel
