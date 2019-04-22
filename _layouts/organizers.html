@@ -5,43 +5,51 @@ layout: default
 <html>
 
 <head>
-        <link rel="stylesheet" type="text/css" href="/organizerpage.css.css">
+        <link rel="stylesheet" type="text/css" href="/assets/css/organizer.css">
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
 
-        <h2>{{ page.title }}</h2>
-        <h3 style="text-align: center">Current Members</h3>
+        <h2 style="
+        margin-left: 120px; margin-top: 50px;">{{ page.title }}</h2>
+        <p style="margin-left: 120px; font-weight: lighter">Below is a list of the current members of the organizing team, their role, and emails.</p>
+        <p class = "tit" style="margin-top: 50px;"><b>Current Members</b></p>
         <br>
 
-        <div class="currentmembers">
+        <div class="currentmembers" style ="margin-top: 0px">
                 {% for org in page.organizers%}
                 <div class="row">
                         <div class="column">
-                                <div class="container">
+                                <div class="organizer-container">
                                         <img src="{{org.organizer_pic}}">
-                                        <p> <a> <b>{{org.name}}</b></a><br> <a class="role" style="color:grey;">{{org.role}}</a>
-                                                <br> {{org.email}}
+                                        <p> <a> <b>{{org.name}}</b></a><br> <a class="role" style="color:grey;
+                                                font-size: 80%;">{{org.role}}</a>
+                                                <br> <a class="email" style="font-size: 70%;
+                                                color: #a7aaaf;">{{org.email}}</a>
                                         </p>
 
                                 </div>
                         </div>
 
                         <div class="column">
-                                <div class="container">
+                                <div class="organizer-container">
                                         <img src="{{org.organizer_pic2}}">
-                                        <p> <a> <b>{{org.name2}}</b></a><br> <a class="title" style="color:grey;">{{org.role2}}</a>
-                                                <br> {{org.email2}}</p>
+                                        <p> <a> <b>{{org.name2}}</b></a><br> <a style="color:grey;
+                                                font-size: 80%;">{{org.role2}}</a>
+                                                <br> <a style="font-size: 70%;
+                                                color: #a7aaaf;">{{org.email2}}</a></p>
 
                                 </div>
                         </div>
                         <div class="column">
-                                <div class="container">
+                                <div class="organizer-container">
                                         <img src="{{org.organizer_pic3}}">
-                                        <p> <a> <b>{{org.name3}}</b></a><br> <a class="title" style="color:grey;">{{org.role3}}</a>
-                                                <br> {{org.email3}}</p>
+                                        <p> <a> <b>{{org.name3}}</b></a><br> <a class="role" style="color:grey;
+                                                font-size: 80%;">{{org.role3}}</a>
+                                                <br> <a style="font-size: 70%;
+                                                color: #a7aaaf;">{{org.email3}}</a></p>
 
                                 </div>
                         </div>
@@ -51,63 +59,6 @@ layout: default
                         {% endif %}
                         {% endfor %}
                 
-        </div>
-
-        <h2>Past Members</h2>
-        <div class="pastmembers">
-
-
-                <table>
-                        <tr>
-                                <th>Role</th>
-                                <th>Contact</th>
-                                <th>Website</th>
-                                <th>Years on Team</th>
-                                <th>Other Roles</th>
-                        </tr>
-                        <tr>
-                                <td>Steven Griesdorf</td>
-                                <td>Dictator Pockets</td>
-                                <td>www.google.com</td>
-                                <td>2014-2017</td>
-                                <td>Pockets</td>
-                        </tr>
-                        <tr>
-                                <td>Steven Griesdorf</td>
-                                <td>Dictator Pockets</td>
-                                <td>www.google.com</td>
-                                <td>2014-2017</td>
-                                <td>Pockets</td>
-                        </tr>
-                        <tr>
-                                <td>Steven Griesdorf</td>
-                                <td>Dictator Pockets</td>
-                                <td>www.google.com</td>
-                                <td>2014-2017</td>
-                                <td>Pockets</td>
-                        </tr>
-                        <tr>
-                                <td>Steven Griesdorf</td>
-                                <td>Dictator Pockets</td>
-                                <td>www.google.com</td>
-                                <td>2014-2017</td>
-                                <td>Pockets</td>
-                        </tr>
-                        <tr>
-                                <td>Steven Griesdorf</td>
-                                <td>Dictator Pockets</td>
-                                <td>www.google.com</td>
-                                <td>2014-2017</td>
-                                <td>Pockets</td>
-                        </tr>
-                        <tr>
-                                <td>Steven Griesdorf</td>
-                                <td>Dictator Pockets</td>
-                                <td>www.google.com</td>
-                                <td>2014-2017</td>
-                                <td>Pockets</td>
-                        </tr>
-                </table>>
         </div>
 
 </body>
