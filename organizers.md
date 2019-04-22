@@ -41,7 +41,7 @@ organizers:
         email2: alicjaw@bu.edu
         name3: Joyce Hu
         role3: Design Team Member
-        organizer_pic3: 
+        organizer_pic3: /assets/imgs/joyce.jpg
         email3: joycehu@bu.edu
     -
         name: Gabrielle Roman

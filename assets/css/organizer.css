@@ -5,11 +5,7 @@ html {
   *, *:before, *:after {
     box-sizing: inherit;
   }
-  img {
-   border-radius: 50%;
-   width: 20%;
-   padding: 5px;
-  }
+  
   .column {
     float: left;
     width: 33.3%;
