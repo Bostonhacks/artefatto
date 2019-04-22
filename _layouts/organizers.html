@@ -1,54 +1,66 @@
 ---
 layout: default
 ---
+<!DOCTYPE html>
+<html>
 
+<head>
+        <link rel="stylesheet" type="text/css" href="/assets/css/organizer.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
 
-<h2 style="
+<body>
+
+        <h2 style="
         margin-left: 120px; margin-top: 50px;">{{ page.title }}</h2>
-<p style="margin-left: 120px; font-weight: lighter">Below is a list of the current members of the organizing team, their
-        role, and emails.</p>
-<p class="tit" style="margin-top: 50px;"><b>Current Members</b></p>
-<br>
+        <p style="margin-left: 120px; font-weight: lighter">Below is a list of the current members of the organizing team, their role, and emails.</p>
+        <p class = "tit" style="margin-top: 50px;"><b>Current Members</b></p>
+        <br>
 
-<div class="currentmembers" style="margin-top: 0px">
-        {% for org in page.organizers%}
-        <div class="row">
-                <div class="column">
-                        <div class="organizer-container">
-                                <img src="{{org.organizer_pic}}">
-                                <p> <a> <b>{{org.name}}</b></a><br> <a class="role" style="color:grey;
+        <div class="currentmembers" style ="margin-top: 0px">
+                {% for org in page.organizers%}
+                <div class="row">
+                        <div class="column">
+                                <div class="container">
+                                        <img src="{{org.organizer_pic}}">
+                                        <p> <a> <b>{{org.name}}</b></a><br> <a class="role" style="color:grey;
                                                 font-size: 80%;">{{org.role}}</a>
-                                        <br> <a class="email" style="font-size: 70%;
+                                                <br> <a class="email" style="font-size: 70%;
                                                 color: #a7aaaf;">{{org.email}}</a>
-                                </p>
+                                        </p>
 
+                                </div>
                         </div>
-                </div>
 
-                <div class="column">
-                        <div class="organizer-container">
-                                <img src="{{org.organizer_pic2}}">
-                                <p> <a> <b>{{org.name2}}</b></a><br> <a style="color:grey;
+                        <div class="column">
+                                <div class="container">
+                                        <img src="{{org.organizer_pic2}}">
+                                        <p> <a> <b>{{org.name2}}</b></a><br> <a style="color:grey;
                                                 font-size: 80%;">{{org.role2}}</a>
-                                        <br> <a style="font-size: 70%;
+                                                <br> <a style="font-size: 70%;
                                                 color: #a7aaaf;">{{org.email2}}</a></p>
 
+                                </div>
                         </div>
-                </div>
-                <div class="column">
-                        <div class="organizer-container">
-                                <img src="{{org.organizer_pic3}}">
-                                <p> <a> <b>{{org.name3}}</b></a><br> <a class="role" style="color:grey;
+                        <div class="column">
+                                <div class="container">
+                                        <img src="{{org.organizer_pic3}}">
+                                        <p> <a> <b>{{org.name3}}</b></a><br> <a class="role" style="color:grey;
                                                 font-size: 80%;">{{org.role3}}</a>
-                                        <br> <a style="font-size: 70%;
+                                                <br> <a style="font-size: 70%;
                                                 color: #a7aaaf;">{{org.email3}}</a></p>
 
+                                </div>
                         </div>
                 </div>
+                {% if forloop.last == false %}
+                        <hr />
+                        {% endif %}
+                        {% endfor %}
+                
         </div>
-        {% if forloop.last == false %}
-        <hr />
-        {% endif %}
-        {% endfor %}
 
-</div>
+</body>
+
+</html>
