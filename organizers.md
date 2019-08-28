@@ -1,7 +1,7 @@
 ---
 layout: organizers
-title: BostonHacks Fall 2019 Organizers
 permalink: /organizers/
+
 organizers:
     -
         name: Sarah Greisdorf
@@ -16,7 +16,6 @@ organizers:
         role3: Marketing Team Member
         organizer_pic3: /assets/imgs/jenniferk.jpg
         email3: jenkim@bu.edu
-
     -
         name: Victoria Kayola
         role: Marketing Team Member
@@ -24,7 +23,7 @@ organizers:
         email: vkayola@bu.edu
         name2: Prim Promchotichai 
         role2: Marketing Team Member
-        organizer_pic2: 
+        organizer_pic2: /assets/imgs/prim.png
         email2: pnuwapa@bu.edu
         name3: Chinwe Oparaji
         role3: Head of Design Team
@@ -33,11 +32,11 @@ organizers:
     -
         name: Fiona Lin
         role: Design Team Member
-        organizer_pic: 
+        organizer_pic: /assets/imgs/fiona.png
         email: fionalin8751@gmail.com
         name2: Alicja Wisniowska
         role2: Design Team Member
-        organizer_pic2: 
+        organizer_pic2: /assets/imgs/alicja.png
         email2: alicjaw@bu.edu
         name3: Joyce Hu
         role3: Design Team Member
@@ -50,7 +49,7 @@ organizers:
         email: gsroman@bu.edu
         name2: Emmanuel Amponsah
         role2: Logistics Team Member
-        organizer_pic2: 
+        organizer_pic2: /assets/imgs/em.png
         email2: eampons@bu.edu
         name3: Sid Premkumar
         role3: Logistics Team Member
@@ -72,11 +71,11 @@ organizers:
     -
         name: Blake Abel
         role: Logistics Team Member
-        organizer_pic: 
+        organizer_pic: /assets/imgs/blake.png
         email: blabel@bu.edu
         name2: Tin Nguyen
         role2: Logistics Team Member
-        organizer_pic2: 
+        organizer_pic2: /assets/imgs/tim.png
         email2: tinhoang@bu.edu
         name3: Jennifer Roh
         role3: Head of Sponsorship
@@ -92,13 +91,13 @@ organizers:
         organizer_pic2: /assets/imgs/lisa.jpeg
         email2: lisaqv@bu.edu
         name3: Charles Ma
-        role3: Sponsorship Team Member/Director of BostonHacks 2018
+        role3: Sponsorship/Director of BostonHacks 2018
         organizer_pic3: /assets/imgs/charles.jpeg
         email3: cma4@bu.edu
     -
         name: Roger Ramesh
         role: Sponsorship Team Member
-        organizer_pic: 
+        organizer_pic: /assets/imgs/roger.png
         email: nnaiman@bu.edu
         name2: Ben Lague
         role2: Sponsorship Team Member
@@ -106,12 +105,12 @@ organizers:
         email2: lisaqv@bu.edu
         name3: Asif Rahman
         role3: Sponsorship Team Member
-        organizer_pic3: 
+        organizer_pic3: /assets/imgs/asif.png
         email3: rasif@bu.edu
     -
         name: Nikita Jakkam
         role: Sponsorship Team Member
-        organizer_pic: 
+        organizer_pic: /assets/imgs/nik.png
         email: njakkam@bu.edu
         name2: Michael Hendricks
         role2: Head of Tech
@@ -150,7 +149,7 @@ organizers:
     -
         name: Austin Negron
         role: Tech Team Member
-        organizer_pic: /assets/imgs/austin.jpeg
+        organizer_pic: /assets/imgs/aus2.png
         email: negrona@bu.edu
         name2: Jin-Young "Alex" Bang
         role2: Tech Team Member
@@ -158,9 +157,60 @@ organizers:
         email2: jybang@bu.edu
         name3: Rishab Nayak
         role3: Tech Team Member
-        organizer_pic3: 
+        organizer_pic3: /assets/imgs/rishab.png
         email3: rishab@bu.edu
 
-
-    
+forganizers:
+    -
+        name: Andrew Hoang
+        role: BostonHacks Founder - Facebook 
+        organizer_pic: /assets/imgs/andrewh.png
+        email: ahoang@bu.edu
+        name2: Brandon Ng 
+        role2: Wayfair - Software Engineer
+        organizer_pic2: /assets/imgs/ng.png
+        email2: bng@bu.edu
+        name3: Alexandra Miller-Browne - IDK
+        role3: Marketing Team Member
+        organizer_pic3: /assets/imgs/mbrowne.png
+        email3: abrowne@bu.edu
+    -
+        name: Ben Kvisler
+        role: Director of BostonHacks
+        organizer_pic: /assets/imgs/benk.png
+        email: sarah21@bu.edu
+        name2: Huy Le
+        role2: Head of Marketing
+        organizer_pic2: /assets/imgs/huyle.png
+        email2: mlin2022@bu.edu
+        name3: Jack Knollmeyer
+        role3: Marketing Team Memmber
+        organizer_pic3: /assets/imgs/knollmeyer.png
+        email3: jenkim@bu.edu
+    -
+        name: Maddie Zhang
+        role: Director of BostonHacks
+        organizer_pic: /assets/imgs/mzhang.png
+        email: sarah21@bu.edu
+        name2: Nico Hinderling
+        role2: Head of Marketing
+        organizer_pic2: /assets/imgs/hinderling.png
+        email2: mlin2022@bu.edu
+        name3: Sneha Pradhan
+        role3: Marketing Team Member
+        organizer_pic3: /assets/imgs/pradhan.png
+        email3: jenkim@bu.edu
+    -
+        name: Sean Zhang
+        role: Director of BostonHacks
+        organizer_pic: /assets/imgs/szhang.png
+        email: sarah21@bu.edu
+        name2: Ibrahim Shaikh
+        role2: ITG, Software Engineer
+        organizer_pic2: /assets/imgs/shaikh.png
+        email2: mlin2022@bu.edu
+        name3: Mark Bestavros
+        role3: Red Hat - Software Engineer
+        organizer_pic3: /assets/imgs/bestavros.png
+        email3: jenkim@bu.edu
 ---

@@ -1,0 +1,96 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  .column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 0px;
+    padding: 0 8px;
+    margin-top: 10px;
+  }
+.tit
+{
+  font-size: 110%;
+  color:black;
+  max-width: 140px;
+  margin-left: 120px;
+  margin-bottom: 0px;
+}
+
+
+  .currentmembers
+  {
+      background-color: white;
+      max-width: 1200px;
+      margin: 0 auto;
+      margin-bottom: 50px;
+      margin-top: 4px;
+  }
+
+  .formermembers{
+    background-color: white;
+      max-width: 1200px;
+      margin: 0 auto;
+      margin-bottom: 50px;
+      margin-top: 4px;
+  }
+
+  .description
+  {
+    font-size: 75%;
+  }
+  .pastmembers
+  {
+      background-color: white;
+  }
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+  
+  body
+  {
+    background-color: #eff0f2;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .organizer-container {
+    padding: 0 16px;
+    display:flex;
+  align-items:center;
+  flex-direction: row;
+  }
+  
+  .organizer-container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+    font-size: 95%;
+  }
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    text-align: left;
+    padding: 8px;
+  }
+
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+

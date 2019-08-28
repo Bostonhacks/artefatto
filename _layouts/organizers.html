@@ -12,9 +12,10 @@ layout: default
 
 <body>
 
+
         <h2 style="
         margin-left: 120px; margin-top: 50px;">{{ page.title }}</h2>
-        <p style="margin-left: 120px; font-weight: lighter">Below is a list of the current members of the organizing team, their role, and emails.</p>
+        <p style="margin-left: 120px; font-weight: lighter; font-size:200%;">BostonHacks Organizers 2019</p>
         <p class = "tit" style="margin-top: 50px;"><b>Current Members</b></p>
         <br>
 
@@ -54,12 +55,55 @@ layout: default
                                 </div>
                         </div>
                 </div>
+                {% endfor %}
+
+                 <h2 style="margin-left: 120px; margin-top: 50px;">{{ page.title }}</h2>
+
+                 
+        <p style="margin-left: 120px; font-weight: lighter; font-size:200%;">BostonHacks Hall of Fame</p>
+        <p class = "tit" style="margin-top: 50px;"><b>Hall of Fame Inductees</b></p>
+        <br>
+
+        <div class="formermembers" style ="margin-top: 0px">
+                {% for org in page.forganizers%}
+                <div class="row">
+                        <div class="column">
+                                <div class="organizer-container">
+                                                <img src="{{org.organizer_pic}}" style="border-radius:50%;width:20%;padding:5px;"/>
+                                        <p> <a> <b>{{org.name}}</b></a><br> <a class="role" style="color:grey;font-size: 80%;">{{org.role}}</a>
+                                                <br> <a class="email" style="font-size: 70%;
+                                                color: #a7aaaf;">{{org.email}}</a>
+                                        </p>
+
+                                </div>
+                        </div>
+
+                        <div class="column">
+                                <div class="organizer-container">
+                                        <img src="{{org.organizer_pic2}}" style="border-radius:50%;width:20%;padding:5px;">
+                                        <p> <a> <b>{{org.name2}}</b></a><br> <a style="color:grey;
+                                                font-size: 80%;">{{org.role2}}</a>
+                                                <br> <a style="font-size: 70%;
+                                                color: #a7aaaf;">{{org.email2}}</a></p>
+
+                                </div>
+                        </div>
+                        <div class="column">
+                                <div class="organizer-container">
+                                        <img src="{{org.organizer_pic3}}" style="border-radius:50%;width:20%;padding:5px;">
+                                        <p> <a> <b>{{org.name3}}</b></a><br> <a class="role" style="color:grey;
+                                                font-size: 80%;">{{org.role3}}</a>
+                                                <br> <a style="font-size: 70%;
+                                                color: #a7aaaf;">{{org.email3}}</a></p>
+
+                                </div>
+                        </div>
+                </div>
                 {% if forloop.last == false %}
                         <hr />
                         {% endif %}
                         {% endfor %}
-                
-        </div>
+    </div>
 
 </body>
 
