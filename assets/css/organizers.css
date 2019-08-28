@@ -32,14 +32,19 @@ html {
       margin-top: 4px;
   }
 
+  .formermembers{
+    background-color: white;
+      max-width: 1200px;
+      margin: 0 auto;
+      margin-bottom: 50px;
+      margin-top: 4px;
+  }
+
   .description
   {
     font-size: 75%;
   }
-  .pastmembers
-  {
-      background-color: white;
-  }
+ 
   @media screen and (max-width: 650px) {
     .column {
       width: 100%;
@@ -65,6 +70,7 @@ html {
     clear: both;
     display: table;
   }
+  
   
   .title {
     color: grey;
